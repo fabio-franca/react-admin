@@ -1,0 +1,10 @@
+1) npx create-react-app .
+(lembrar que não pode ter letra maiuscula na pasta)
+2) yarn add @material-ui/icons @material-ui/core recharts
+3) No settings.json da extensão EMMET, adicionar:
+"emmet.syntaxProfiles": {
+     "javascript": "jsx" 
+ },
+"emmet.includeLanguages": {
+    "javascript": "html"
+}

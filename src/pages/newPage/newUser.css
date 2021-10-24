@@ -1,0 +1,68 @@
+.newUser{
+    flex: 4;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.newUserForm{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.newUserItem{
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.newUserItem>label{
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: grey;
+}
+
+.newUserItem>input{
+    height: 25px;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 6px;
+}
+
+.newUserGender>input{
+    margin-top: 15px;
+}
+
+.newUserGender>label{
+    margin: 10px;
+    font-size: 18px;
+    color: #555;
+}
+
+.newUserSelect{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+
+.newUserButton{
+    width: 200px;
+    border: none;
+    background-color: rgb(4, 197, 197);
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.newUserSelect option[value="yes"]{
+    color: green !important; 
+}
+.newUserSelect option[value="no"]{
+    color: red !important; 
+}

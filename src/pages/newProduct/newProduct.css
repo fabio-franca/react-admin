@@ -1,0 +1,93 @@
+.newProduct{
+    flex: 4;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.addProductTitle{
+    font-size: 26px;
+    margin-bottom: 15px;
+}
+
+.addProductForm{
+    display: flex;
+    flex-direction: column;
+}
+
+.addProductItemImg{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    color: grey;
+    width: 12rem;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 10px;
+}
+
+.addProductItemImgFundo{
+    height: 80px;
+    width: 80px;
+    object-fit: cover;
+    opacity: 40%;
+}
+
+.addProductItemImg p{
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.addProductItemImg .addProductItemIcon{
+    font-size: 32px;
+    cursor: pointer;
+}
+
+.addProductItem{
+    width: 28rem;
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+}
+
+.addProductItem>label{
+    margin-bottom: 15px;
+    font-size: 14px;
+    font-weight: 600;
+    color: grey;
+}
+
+.addProductItem>input{
+    height: 25px;
+    padding: 6px;
+    margin-bottom: 10px;
+    border: 1px solid rgb(180, 180, 180);
+    border-radius: 6px;
+}
+
+.addProductItem>select{
+    height: 40px;
+    width: 100px;
+    border-radius: 5px;
+    border: 1px solid #555;
+}
+
+.addProductItem option[value="yes"]{
+    color: green !important; 
+}
+.addProductItem option[value="no"]{
+    color: red !important; 
+}
+
+.addProductButton{
+    width: 200px;
+    border: none;
+    background-color: rgb(4, 197, 197);
+    padding: 7px 10px;
+    font-weight: 600;
+    border-radius: 10px;
+    margin-top: 30px;
+    cursor: pointer;
+    color: white;
+}
